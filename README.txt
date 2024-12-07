@@ -7,7 +7,7 @@ The folder contains
 		2.	System pH. Can only run for 7, 5, 3.5 and 2 (default is 7)
 		3.	srcutoff which is a distance cut-off in Angstrom (default is 5 Angstrom excluding H atoms)
 		4.	BlockSize for block approximation
-		5.	Secondary structure file generated from STRIDE webserver in the 'structfile' variable and must be present in the same folder. The naming of the structure file 				must be prefixed by "struct". For the test.pdb the structure file should be named as structtest.txt.In Linux systems, uncomment the lines 12-14 and comment and 			comment 15. The system must have stride downloaded in it with stride run file in the same folder.
+		5.	Secondary structure file generated from STRIDE webserver in the 'structfile' variable and must be present in the same folder. The naming of the structure file 				must be prefixed by "struct". For the test.pdb the structure file should be named as structtest.txt. In Linux systems, uncomment the lines 12-14 and comment 				and comment 15. The system must have stride downloaded in it with stride run file in the same folder.
 	
 	The output (o) will be 
 		1.	residue-wise contact map ("contactmapmatElec" prefix), 
